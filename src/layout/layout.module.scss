@@ -1,1 +1,15 @@
+.layout {
+  main {
+    padding-top: 80px;
+    max-width: 725px;
+    margin: 0 auto;
 
+    section {
+      margin: 24px 0;
+
+      &:last-child {
+        padding-bottom: 80px;
+      }
+    }
+  }
+}

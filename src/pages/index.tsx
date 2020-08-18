@@ -1,15 +1,15 @@
 import React from 'react';
 import Layout from '../layout';
+import CTA from '../components/static/home/cta';
+import WhatWeDo from '../components/static/home/what-we-do';
 
 export default () => (
-  <Layout>
-    <div>
-      <h1>CMT Systems</h1>
-      <p>
-        Coolers, Easy Fit Air Conditioners, Portable Air Conditioners, Wall Mounted Air Conditioners
-        and advice.
-      </p>
-      <p>For sales and support email sales@cmtsystems.co.uk</p>
-    </div>
+  <Layout title="CMT Systems">
+    <section>
+      <CTA />
+    </section>
+    <section>
+      <WhatWeDo />
+    </section>
   </Layout>
 );
